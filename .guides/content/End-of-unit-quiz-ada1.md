@@ -6,21 +6,36 @@ Now it’s time to think carefully about what you have learned in lessons 1 to 4
 The purpose of the CPU is to control other **hardware** devices and **execute** program instructions. 
 
 The design of the CPU and the way in which it interacts with other components to carry out the program instructions is known as **von Neumann architecture**.
+|||
+{Check It!|assessment}(fill-in-the-blanks-4062270043)
 
+|||guidance
+# Solution
 Components of the CPU include the **control unit** which controls other elements of the CPU and the **ALU** which carries out arithmetic calculations. 
 
 **Registers** are storage locations within the CPU and include the **MDR** which stores instructions fetched from RAM and the **accumulator** which is an intermediate store for calculations performed by the CPU. 
-
+|||
+{Check It!|assessment}(fill-in-the-blanks-450184057)
+|||guidance
+# Solution
 The **clock** sets the rate at which calculations are carried out by the CPU.
 
 The CPU carries out program instructions by the **fetch-decode-execute** cycle. 
 
 The **program counter** contains the memory address of the next instruction and after it is fetched it is **decoded** by the CU and then **executed**.
+|||
+{Check It!|assessment}(fill-in-the-blanks-3874099351)
 
+|||guidance
+# Solution
 If the clock speed is increased then the rate of processing is also increased but it cannot be done indefinitely because of the **heat** generated which causes harm to the processor.
 
 Processing speed can be increased by the use of **cache** memory in the CPU. This consists of **SRAM** which is faster than the **DRAM** used in RAM. It stores **frequently** used instructions.
+|||
+{Check It!|assessment}(fill-in-the-blanks-2645510446)
 
+|||guidance
+# Solution
 The use of **multiple** cores increases processing speed as they allow many programs to be processed at the same time. This is called **multitasking**. 
 
 They also allow **parallel processing** where the cores can work together on the same program.

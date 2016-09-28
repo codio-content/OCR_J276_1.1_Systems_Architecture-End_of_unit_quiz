@@ -8,30 +8,12 @@
    "instructions": "**Select correct answers from the available list**",
    "points": "1",
    "showValues": true,
-   "text": "The purpose of the CPU is to control other <<<hardware>>> devices and <<<execute>>> program instructions. \n\nThe design of the CPU and the way in which it interacts with other components to carry out the program instructions is known as <<<von Neumann architecture>>>.\n\nComponents of the CPU include the <<<control unit>>> which controls other elements of the CPU and the <<<ALU>>> which carries out arithmetic calculations. \n\n<<<Registers>>> are storage locations within the CPU and include the <<<MDR>>> which stores instructions fetched from RAM and the <<<accumulator>>> which is an intermediate store for calculations performed by the CPU. \n\nThe <<<clock>>> sets the rate at which calculations are carried out by the CPU.\n\nThe CPU carries out program instructions by the <<<fetch-decode-execute>>> cycle. \n\nThe <<<program counter>>> contains the memory address of the next instruction and after it is fetched it is <<<decoded>>> by the CU and then <<<executed>>>.\n\nIf the clock speed is increased then the rate of processing is also increased but it cannot be done indefinitely because of the <<<heat>>> generated which causes harm to the processor.\n\nProcessing speed can be increased by the use of <<<cache>>> memory in the CPU. This consists of <<<SRAM>>> which is faster than the <<<DRAM>>> used in RAM. It stores <<<frequently>>> used instructions.\n\nThe use of <<<multiple>>> cores increases processing speed as they allow many programs to be processed at the same time. This is called <<<multitasking>>>. \n\nThey also allow <<<parallel processing>>> where the cores can work together on the same program.",
+   "text": "The purpose of the CPU is to control other <<<hardware>>> devices and <<<execute>>> program instructions. \n\nThe design of the CPU and the way in which it interacts with other components to carry out the program instructions is known as <<<von Neumann architecture>>>.\n",
    "tokens": {
     "blank": [
      "hardware",
      "execute",
-     "von Neumann architecture",
-     "control unit",
-     "ALU",
-     "Registers",
-     "MDR",
-     "accumulator",
-     "clock",
-     "fetch-decode-execute",
-     "program counter",
-     "decoded",
-     "executed",
-     "heat",
-     "cache",
-     "SRAM",
-     "DRAM",
-     "frequently",
-     "multiple",
-     "multitasking",
-     "parallel processing"
+     "von Neumann architecture"
     ],
     "text": [
      "The purpose of the CPU is to control other ",
@@ -40,7 +22,31 @@
      0,
      " program instructions. \n\nThe design of the CPU and the way in which it interacts with other components to carry out the program instructions is known as ",
      0,
-     ".\n\nComponents of the CPU include the ",
+     ".\n"
+    ]
+   }
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-4062270043",
+  "source": {
+   "name": "Question 2",
+   "showName": false,
+   "instructions": "**Select correct answers from the available list**",
+   "points": "1",
+   "showValues": true,
+   "text": "Components of the CPU include the <<<control unit>>> which controls other elements of the CPU and the <<<ALU>>> which carries out arithmetic calculations. \n\n<<<Registers>>> are storage locations within the CPU and include the <<<MDR>>> which stores instructions fetched from RAM and the <<<accumulator>>> which is an intermediate store for calculations performed by the CPU. \n",
+   "tokens": {
+    "blank": [
+     "control unit",
+     "ALU",
+     "Registers",
+     "MDR",
+     "accumulator"
+    ],
+    "text": [
+     "Components of the CPU include the ",
      0,
      " which controls other elements of the CPU and the ",
      0,
@@ -50,7 +56,31 @@
      0,
      " which stores instructions fetched from RAM and the ",
      0,
-     " which is an intermediate store for calculations performed by the CPU. \n\nThe ",
+     " which is an intermediate store for calculations performed by the CPU. \n"
+    ]
+   }
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-450184057",
+  "source": {
+   "name": "Question 3",
+   "showName": false,
+   "instructions": "**Select correct answers from the available list**",
+   "points": "1",
+   "showValues": true,
+   "text": "The <<<clock>>> sets the rate at which calculations are carried out by the CPU.\n\nThe CPU carries out program instructions by the <<<fetch-decode-execute>>> cycle. \n\nThe <<<program counter>>> contains the memory address of the next instruction and after it is fetched it is <<<decoded>>> by the CU and then <<<executed>>>.\n",
+   "tokens": {
+    "blank": [
+     "clock",
+     "fetch-decode-execute",
+     "program counter",
+     "decoded",
+     "executed"
+    ],
+    "text": [
+     "The ",
      0,
      " sets the rate at which calculations are carried out by the CPU.\n\nThe CPU carries out program instructions by the ",
      0,
@@ -60,7 +90,31 @@
      0,
      " by the CU and then ",
      0,
-     ".\n\nIf the clock speed is increased then the rate of processing is also increased but it cannot be done indefinitely because of the ",
+     ".\n"
+    ]
+   }
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-3874099351",
+  "source": {
+   "name": "Question 4",
+   "showName": false,
+   "instructions": "**Select correct answers from the available list**",
+   "points": "1",
+   "showValues": true,
+   "text": "If the clock speed is increased then the rate of processing is also increased but it cannot be done indefinitely because of the <<<heat>>> generated which causes harm to the processor.\n\nProcessing speed can be increased by the use of <<<cache>>> memory in the CPU. This consists of <<<SRAM>>> which is faster than the <<<DRAM>>> used in RAM. It stores <<<frequently>>> used instructions.\n",
+   "tokens": {
+    "blank": [
+     "heat",
+     "cache",
+     "SRAM",
+     "DRAM",
+     "frequently"
+    ],
+    "text": [
+     "If the clock speed is increased then the rate of processing is also increased but it cannot be done indefinitely because of the ",
      0,
      " generated which causes harm to the processor.\n\nProcessing speed can be increased by the use of ",
      0,
@@ -70,7 +124,29 @@
      0,
      " used in RAM. It stores ",
      0,
-     " used instructions.\n\nThe use of ",
+     " used instructions.\n"
+    ]
+   }
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-2645510446",
+  "source": {
+   "name": "Question 5",
+   "showName": false,
+   "instructions": "**Select correct answers from the available list**",
+   "points": "1",
+   "showValues": true,
+   "text": "The use of <<<multiple>>> cores increases processing speed as they allow many programs to be processed at the same time. This is called <<<multitasking>>>. \n\nThey also allow <<<parallel processing>>> where the cores can work together on the same program.",
+   "tokens": {
+    "blank": [
+     "multiple",
+     "multitasking",
+     "parallel processing"
+    ],
+    "text": [
+     "The use of ",
      0,
      " cores increases processing speed as they allow many programs to be processed at the same time. This is called ",
      0,

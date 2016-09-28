@@ -156,5 +156,215 @@
     ]
    }
   }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-3123501773",
+  "source": {
+   "name": "Question2",
+   "showName": false,
+   "instructions": "**Select correct answers from the available list**",
+   "points": "1",
+   "showValues": true,
+   "text": "The CPU runs an endless <<<fetch-execute>>> cycle, where the instructions are <<<fetched>>> from <<<Primary>>> memory, decoded and then <<<executed>>>.",
+   "tokens": {
+    "blank": [
+     "fetch-execute",
+     "fetched",
+     "Primary",
+     "executed"
+    ],
+    "text": [
+     "The CPU runs an endless ",
+     0,
+     " cycle, where the instructions are ",
+     0,
+     " from ",
+     0,
+     " memory, decoded and then ",
+     0,
+     "."
+    ]
+   }
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-4106213788",
+  "source": {
+   "name": "Question 3",
+   "showName": false,
+   "instructions": "**Which one of the following statements is false?**",
+   "points": "1",
+   "incorrectPoints": "0",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "answer": "Instructions are decoded by the CPU",
+     "correct": false,
+     "_id": "1aeaee0c-8f0d-4084-7117-ebf4773b96a8"
+    },
+    {
+     "correct": true,
+     "answer": "Instructions are fetched from ROM",
+     "_id": "7ab259a5-10fa-1228-a6b7-8f15219203e2"
+    },
+    {
+     "answer": "After the instructions have been decoded the CPU executes them",
+     "correct": false,
+     "_id": "149a346c-c753-1be8-ab33-03f695d14ecb"
+    }
+   ]
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2615616685",
+  "source": {
+   "name": "Question4",
+   "showName": false,
+   "instructions": "**What is the ALU responsible for?**",
+   "points": "1",
+   "incorrectPoints": "0",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "1ef2597c-0805-8fdd-0ae8-6bf0b12345c6",
+     "correct": false,
+     "answer": "Retrieve data from the Cache"
+    },
+    {
+     "_id": "1c7e1651-39f6-9088-368f-49d2ded74af3",
+     "correct": false,
+     "answer": "Store the result of arithmetic calculations"
+    },
+    {
+     "_id": "bfac126a-3397-89f8-1451-d7cfb88f4d91",
+     "correct": false,
+     "answer": "Controlling the flow of signals"
+    },
+    {
+     "_id": "0524297e-ca21-deac-2d27-99fa31661ba1",
+     "correct": true,
+     "answer": "Calculations and logical comparisons"
+    }
+   ]
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2666289492",
+  "source": {
+   "name": "Question5",
+   "showName": false,
+   "instructions": "**If the clock speed of a CPU is 1.8 GHz, how many fetch-execute cycles is this per second?**",
+   "points": "1",
+   "incorrectPoints": "0",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "answer": "1,800,000",
+     "correct": false,
+     "_id": "a9aa29f3-bed7-76f8-3dbf-1a93a0c04aba"
+    },
+    {
+     "correct": true,
+     "answer": "1,800,000,000",
+     "_id": "85c052b4-ff32-aeb4-2633-6bdf39fd8dcd"
+    },
+    {
+     "answer": "1,800",
+     "correct": false,
+     "_id": "cdf96637-2915-f9e6-60b9-c3d70de448bf"
+    }
+   ]
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2704823731",
+  "source": {
+   "name": "Question 6",
+   "showName": false,
+   "instructions": "**How will increasing Cache size improve performance?**",
+   "points": "1",
+   "incorrectPoints": "0",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "correct": true,
+     "answer": "Faster access to instructions",
+     "_id": "c21dbc8d-d627-51d9-9f1a-e6239e7f5d99"
+    },
+    {
+     "answer": "Computer will never crash",
+     "correct": false,
+     "_id": "8ef9b3f5-c27a-f6cd-c17c-8f1d6c3d363f"
+    },
+    {
+     "answer": "More storage",
+     "correct": false,
+     "_id": "2773061e-9b72-7601-1610-05676b8f3858"
+    }
+   ]
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3118490642",
+  "source": {
+   "name": "Question 7",
+   "showName": false,
+   "instructions": "**Which of the following best describes Multitasking**",
+   "points": "1",
+   "incorrectPoints": "0",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "answer": "When the CPU works on one process at a time",
+     "correct": false,
+     "_id": "7ce17775-6c30-2754-4930-06ee9bf843f5"
+    },
+    {
+     "correct": true,
+     "answer": "Ability to run more than one task at the same time by switching between them",
+     "_id": "eeb83823-33cc-4b89-356e-e104592394b5"
+    },
+    {
+     "answer": "Running multiple programs at different times",
+     "correct": false,
+     "_id": "0e2a1af8-417e-8b23-b1a9-c960c937199d"
+    }
+   ]
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3218474400",
+  "source": {
+   "name": "Question 8",
+   "showName": false,
+   "instructions": "**Which of these is not an example of an embedded system**",
+   "points": "1",
+   "incorrectPoints": "0",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "correct": true,
+     "answer": "connect a mobile phone to a network",
+     "_id": "ff3bbc02-0625-dc86-a9c2-c9fe5a2da4e5"
+    },
+    {
+     "answer": "guide a robot around an obstacle",
+     "correct": false,
+     "_id": "55ac507b-6150-05e9-d88f-fa89d3d78b22"
+    },
+    {
+     "answer": "Holiday booking system",
+     "correct": false,
+     "_id": "2b5ed40d-1290-e736-b20e-0fccaf78293e"
+    }
+   ]
+  }
  }
 ]

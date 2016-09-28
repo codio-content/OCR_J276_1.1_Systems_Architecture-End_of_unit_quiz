@@ -1,5 +1,6 @@
 Now it’s time to think carefully about what you have learned in lessons 1 to 4 about systems architecture.
 
+
 {Check It!|assessment}(fill-in-the-blanks-2046329548)
 |||guidance
 # Solution
@@ -41,3 +42,46 @@ The use of **multiple** cores increases processing speed as they allow many prog
 They also allow **parallel processing** where the cores can work together on the same program.
 
 |||
+
+{Check It!|assessment}(fill-in-the-blanks-3123501773)
+|||guidance
+# Solution
+The CPU runs an endless **fetch-execute** cycle, where the instructions are **fetched** from **Primary** memory, decoded and then **executed**.
+|||
+{Check It!|assessment}(multiple-choice-4106213788)
+|||guidance
+# Solution
+Instructions are fetched from ROM
+|||
+{Check It!|assessment}(multiple-choice-2615616685)
+
+|||guidance
+# Solution
+Calculations and logical comparisons
+|||
+{Check It!|assessment}(multiple-choice-2666289492)
+
+|||guidance
+# Solution
+1,800,000,000
+|||
+{Check It!|assessment}(multiple-choice-2704823731)
+
+|||guidance
+# Solution
+Faster access to instructions
+|||
+{Check It!|assessment}(multiple-choice-3118490642)
+
+|||guidance
+# Solution
+Ability to run more than one task at the same time by switching between them
+|||
+{Check It!|assessment}(multiple-choice-3218474400)
+
+|||guidance
+# Solution
+Holiday booking system
+|||
+
+
